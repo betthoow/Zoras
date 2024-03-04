@@ -16,7 +16,9 @@ var my_time;
 function pageScroll() {
 	var objDiv = document.getElementById("contain");
   objDiv.scrollTop = objDiv.scrollTop + 1;  
+  console.log( "Obj Div Scroll Top: " + objDiv.scrollTop +  " --- objDiv.scrollHeight: " + objDiv.scrollHeight);
   if ((objDiv.scrollTop + 100) == objDiv.scrollHeight) {
+    console.log("I should return to top!");
     objDiv.scrollTop = 0;
   }
   my_time = setTimeout('pageScroll()', 0.25);
