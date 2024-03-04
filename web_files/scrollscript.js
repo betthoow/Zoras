@@ -17,7 +17,7 @@ function pageScroll() {
 	var objDiv = document.getElementById("contain");
   objDiv.scrollTop = objDiv.scrollTop + 5;  
   console.log( "Obj Div Scroll Top: " + objDiv.scrollTop +  " --- objDiv.scrollHeight: " + objDiv.scrollHeight);
-  if ((objDiv.scrollTop + 100) >= objDiv.scrollHeight) {
+  if ((objDiv.scrollTop + 1608) >= objDiv.scrollHeight) {
     console.log("I should return to top!");
     objDiv.scrollTop = 0;
   }
