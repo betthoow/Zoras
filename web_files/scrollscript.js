@@ -15,7 +15,7 @@ $(document).ready(function() {
 var my_time;
 function pageScroll() {
 	var objDiv = document.getElementById("contain");
-  objDiv.scrollTop = objDiv.scrollTop + 5;  
+  objDiv.scrollTop = objDiv.scrollTop + 2;  
   console.log( "Obj Div Scroll Top: " + objDiv.scrollTop +  " --- objDiv.scrollHeight: " + objDiv.scrollHeight);
   if ((objDiv.scrollTop + 1608) >= objDiv.scrollHeight) {
     console.log("I should return to top!");
