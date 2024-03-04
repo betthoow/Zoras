@@ -1,0 +1,308 @@
+﻿<private_lessons>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Aitken, Dianne - Flute</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>4:00 PM</Event_x0020_Start>
+    <Event_x0020_End>7:15 PM</Event_x0020_End>
+    <Room_x0020_Code>C003</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Altounian, Raffi - Guitar</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>4:00 PM</Event_x0020_Start>
+    <Event_x0020_End>8:45 PM</Event_x0020_End>
+    <Room_x0020_Code>456</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Anagnoson, James - Piano</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>12:00 PM</Event_x0020_Start>
+    <Event_x0020_End>5:00 PM</Event_x0020_End>
+    <Room_x0020_Code>G050</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Bankas, Atis - Violin</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>5:00 PM</Event_x0020_Start>
+    <Event_x0020_End>7:15 PM</Event_x0020_End>
+    <Room_x0020_Code>G056</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Bogle, Stephanie - Voice</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>12:00 PM</Event_x0020_Start>
+    <Event_x0020_End>4:00 PM</Event_x0020_End>
+    <Room_x0020_Code>453</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Brown, James - Guitar</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>3:00 PM</Event_x0020_Start>
+    <Event_x0020_End>8:30 PM</Event_x0020_End>
+    <Room_x0020_Code>551</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Dann, Steven - Viola</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>12:00 PM</Event_x0020_Start>
+    <Event_x0020_End>3:00 PM</Event_x0020_End>
+    <Room_x0020_Code>G054</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>deHaney, Judith - Piano</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>5:00 PM</Event_x0020_Start>
+    <Event_x0020_End>7:00 PM</Event_x0020_End>
+    <Room_x0020_Code>455</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Edwards, Ann - Piano</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>4:00 PM</Event_x0020_Start>
+    <Event_x0020_End>7:00 PM</Event_x0020_End>
+    <Room_x0020_Code>353</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Eliakis, David - Voice</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>12:00 PM</Event_x0020_Start>
+    <Event_x0020_End>1:00 PM</Event_x0020_End>
+    <Room_x0020_Code>552</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Ferretti, Joseph - Piano</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>4:15 PM</Event_x0020_Start>
+    <Event_x0020_End>8:15 PM</Event_x0020_End>
+    <Room_x0020_Code>C010</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Fothergill, Janet - Piano</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>1:45 PM</Event_x0020_Start>
+    <Event_x0020_End>5:45 PM</Event_x0020_End>
+    <Room_x0020_Code>C011</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Gongos, Chris - Horn</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>4:00 PM</Event_x0020_Start>
+    <Event_x0020_End>6:30 PM</Event_x0020_End>
+    <Room_x0020_Code>454</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Hoeppner, Susan - Flute</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>1:00 PM</Event_x0020_Start>
+    <Event_x0020_End>4:00 PM</Event_x0020_End>
+    <Room_x0020_Code>G058</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Howard, Jason - Voice</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>10:45 AM</Event_x0020_Start>
+    <Event_x0020_End>6:15 PM</Event_x0020_End>
+    <Room_x0020_Code>553</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Jacob-Stein, Helen - Violin</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>2:30 PM</Event_x0020_Start>
+    <Event_x0020_End>7:45 PM</Event_x0020_End>
+    <Room_x0020_Code>C015</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Jeffrey, Sarah - Oboe</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>10:30 AM</Event_x0020_Start>
+    <Event_x0020_End>12:00 PM</Event_x0020_End>
+    <Room_x0020_Code>404</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Katz, Joel - Voice</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>11:00 AM</Event_x0020_Start>
+    <Event_x0020_End>11:45 AM</Event_x0020_End>
+    <Room_x0020_Code>408</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Kerr, Rachael - Voice</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>10:30 AM</Event_x0020_Start>
+    <Event_x0020_End>1:30 PM</Event_x0020_End>
+    <Room_x0020_Code>454</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Lencki, Christopher - Piano</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>3:00 PM</Event_x0020_Start>
+    <Event_x0020_End>6:00 PM</Event_x0020_End>
+    <Room_x0020_Code>355</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Lencki, Christopher - Piano</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>7:00 PM</Event_x0020_Start>
+    <Event_x0020_End>7:30 PM</Event_x0020_End>
+    <Room_x0020_Code>355</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Marangozis, Dimitra - Piano</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>3:00 PM</Event_x0020_Start>
+    <Event_x0020_End>7:45 PM</Event_x0020_End>
+    <Room_x0020_Code>354</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>McCandless, Andrew - Trumpet</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>9:30 AM</Event_x0020_Start>
+    <Event_x0020_End>2:00 PM</Event_x0020_End>
+    <Room_x0020_Code>310</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>McKay, Eslin - Violin</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>1:30 PM</Event_x0020_Start>
+    <Event_x0020_End>2:30 PM</Event_x0020_End>
+    <Room_x0020_Code>402A </Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Moore, Richard - Percussion</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>4:00 PM</Event_x0020_Start>
+    <Event_x0020_End>6:45 PM</Event_x0020_End>
+    <Room_x0020_Code>C028</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Morrison, Marydean - Piano</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>2:00 PM</Event_x0020_Start>
+    <Event_x0020_End>8:30 PM</Event_x0020_End>
+    <Room_x0020_Code>C007</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Niokos, Jeannie - Piano</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>1:15 PM</Event_x0020_Start>
+    <Event_x0020_End>7:45 PM</Event_x0020_End>
+    <Room_x0020_Code>352</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>O'Conor, John - Piano</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>10:00 AM</Event_x0020_Start>
+    <Event_x0020_End>6:30 PM</Event_x0020_End>
+    <Room_x0020_Code>G052</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Perry, John - Piano</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>2:00 PM</Event_x0020_Start>
+    <Event_x0020_End>7:00 PM</Event_x0020_End>
+    <Room_x0020_Code>G060</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Pieczonka, Adrianne - Voice</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>11:00 AM</Event_x0020_Start>
+    <Event_x0020_End>2:00 PM</Event_x0020_End>
+    <Room_x0020_Code>554</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Radford, Gabriel - Horn</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>9:30 AM</Event_x0020_Start>
+    <Event_x0020_End>12:30 PM</Event_x0020_End>
+    <Room_x0020_Code>401</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Raum, Erika - Violin</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>5:00 PM</Event_x0020_Start>
+    <Event_x0020_End>7:00 PM</Event_x0020_End>
+    <Room_x0020_Code>G058</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Rosenberg, Tova - Cello</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>3:15 PM</Event_x0020_Start>
+    <Event_x0020_End>7:00 PM</Event_x0020_End>
+    <Room_x0020_Code>C013</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Rudolph, Theresa - Viola</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>5:30 PM</Event_x0020_Start>
+    <Event_x0020_End>6:30 PM</Event_x0020_End>
+    <Room_x0020_Code>453</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Satory, Stephen - Piano</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>5:15 PM</Event_x0020_Start>
+    <Event_x0020_End>8:45 PM</Event_x0020_End>
+    <Room_x0020_Code>C009</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Seiler, Mayumi - Violin</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>11:00 AM</Event_x0020_Start>
+    <Event_x0020_End>4:30 PM</Event_x0020_End>
+    <Room_x0020_Code>G015</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Seto-Hughes, Emily - Piano</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>3:45 PM</Event_x0020_Start>
+    <Event_x0020_End>8:15 PM</Event_x0020_End>
+    <Room_x0020_Code>C005</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Surman, Christine - Piano</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>2:00 PM</Event_x0020_Start>
+    <Event_x0020_End>6:45 PM</Event_x0020_End>
+    <Room_x0020_Code>356</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Tiefenbach, Peter - Voice</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>2:00 PM</Event_x0020_Start>
+    <Event_x0020_End>5:00 PM</Event_x0020_End>
+    <Room_x0020_Code>554</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Tung, Jennifer - Voice</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>3:30 PM</Event_x0020_Start>
+    <Event_x0020_End>5:30 PM</Event_x0020_End>
+    <Room_x0020_Code>310</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Umbrico, Julie - Harp</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>11:30 AM</Event_x0020_Start>
+    <Event_x0020_End>12:15 PM</Event_x0020_End>
+    <Room_x0020_Code>C001</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Umbrico, Julie - Harp</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>4:45 PM</Event_x0020_Start>
+    <Event_x0020_End>6:15 PM</Event_x0020_End>
+    <Room_x0020_Code>C001</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Vazquez, Ruben - Piano</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>6:00 PM</Event_x0020_Start>
+    <Event_x0020_End>8:30 PM</Event_x0020_End>
+    <Room_x0020_Code>C012</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Wang, Li - Piano</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>2:00 PM</Event_x0020_Start>
+    <Event_x0020_End>8:30 PM</Event_x0020_End>
+    <Room_x0020_Code>G055</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Welch, Luke - Piano</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>3:45 PM</Event_x0020_Start>
+    <Event_x0020_End>6:45 PM</Event_x0020_End>
+    <Room_x0020_Code>406</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Widner, Paul - Cello</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>5:00 PM</Event_x0020_Start>
+    <Event_x0020_End>6:30 PM</Event_x0020_End>
+    <Room_x0020_Code>210</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Widner, Paul - Chamber coaching</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>10:00 AM</Event_x0020_Start>
+    <Event_x0020_End>11:30 AM</Event_x0020_End>
+    <Room_x0020_Code>453</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>Zarins, Peteris - Piano</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>3:00 PM</Event_x0020_Start>
+    <Event_x0020_End>7:45 PM</Event_x0020_End>
+    <Room_x0020_Code>357</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>ZZ</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>9:00 PM</Event_x0020_Start>
+    <Event_x0020_End>10:00 PM</Event_x0020_End>
+    <Room_x0020_Code>.</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>ZZ</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>9:00 PM</Event_x0020_Start>
+    <Event_x0020_End>10:00 PM</Event_x0020_End>
+    <Room_x0020_Code>.</Room_x0020_Code>
+  </Data>
+  <Data>
+    <Booking_x0020_Event_x0020_Name>ZZ</Booking_x0020_Event_x0020_Name>
+    <Event_x0020_Start>9:00 PM</Event_x0020_Start>
+    <Event_x0020_End>10:00 PM</Event_x0020_End>
+    <Room_x0020_Code>.</Room_x0020_Code>
+  </Data>
+</private_lessons>
