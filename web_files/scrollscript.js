@@ -21,7 +21,7 @@ function pageScroll() {
     console.log("I should return to top!");
     objDiv.scrollTop = 0;
   }
-  my_time = setTimeout('pageScroll()', 0.25);
+  my_time = setTimeout(pageScroll, 100);
 }
 
 function getWidthHeader(id_header, id_scroll) {
