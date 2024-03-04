@@ -5,7 +5,7 @@ $(document).ready(function() {
     clearTimeout(my_time);
   }).mouseout(function() {
     pageScroll();
-	location.reload();
+	  //location.reload();
   });
   
   getWidthHeader('table_fixed','table_scroll');
