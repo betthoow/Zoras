@@ -2,9 +2,9 @@ $(document).ready(function() {
   
   pageScroll();
   $("#contain").mouseover(function() {
-    clearTimeout(my_time);
+    //clearTimeout(my_time);
   }).mouseout(function() {
-    pageScroll();
+    //pageScroll();
 	  //location.reload();
   });
   
