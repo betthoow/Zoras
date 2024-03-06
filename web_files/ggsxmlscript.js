@@ -4,7 +4,7 @@ $(document).ready(function() {			getRows();
 		function getRows() {
 		document.body.style.backgroundColor = "#f7f7f7";
 			var xmlhttp = new XMLHttpRequest();
-			xmlhttp.open("get", "http://172.28.28.104/DigitalSignage/ggs_and_academy.xml", true);
+			xmlhttp.open("get", "https://zoras.dssmss.com/ggs_and_academy.xml", true);
 			xmlhttp.onreadystatechange = function() {
 				if (this.readyState == 4 && this.status == 200) {
 					showResult(this);

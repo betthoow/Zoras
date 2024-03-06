@@ -4,5 +4,5 @@ function callAll(jsfiles) {
     src.setAttribute("src", jsfiles);
     document.getElementsByTagName("head")[0].appendChild(src);
 }
-callAll("http://zoras.dssmss.com/web_files/scrollscript.js");
-callAll("http://zoras.dssmss.com/web_files/ggsxmlscript.js");
+callAll("https://zoras.dssmss.com/web_files/scrollscript.js");
+callAll("https://zoras.dssmss.com/web_files/ggsxmlscript.js");
