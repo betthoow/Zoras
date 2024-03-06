@@ -17,7 +17,7 @@ var info = document.getElementById("h1").innerHTML + " - ";
 function pageScroll() {
 	var objDiv = document.getElementById("contain");
   objDiv.scrollTop = objDiv.scrollTop + 2;
-  document.getElementById("h1").innerHTML = info + " -  Window height: " + Window.innerHeight +  " - Obj.Div STop: " + objDiv.scrollTop +  " - objDiv.scrollHeight " + objDiv.scrollHeight;
+  document.getElementById("h1").innerHTML = info + " -  Window height: " + window.innerHeight +  " - Obj.Div STop: " + objDiv.scrollTop +  " - objDiv.scrollHeight " + objDiv.scrollHeight;
   if ((objDiv.scrollTop + 1608) >= objDiv.scrollHeight) {
     console.log("I should return to top!");
     setTimeout(function(){ objDiv.scrollTop = 0; }, 1500);
