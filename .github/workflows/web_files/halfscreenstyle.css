@@ -12,7 +12,7 @@ h1 {  padding: 0px;
   background-color: #f7f7f7;
   color: #2b2a70;
   font-size: 45px;
-})
+}
 	
 #table_scroll {
   
@@ -33,8 +33,6 @@ h1 {  padding: 0px;
   color: #2b2a70;
    font-size: 40px;
      text-align:left;
-}
-
 }
 
 #tcolumn1 tbody td {
