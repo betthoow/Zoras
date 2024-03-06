@@ -13,10 +13,13 @@ $(document).ready(function() {
 });
 
 var my_time;
+var info = "Individual Lessons - 02 - "; 
 function pageScroll() {
 	var objDiv = document.getElementById("contain");
   objDiv.scrollTop = objDiv.scrollTop + 2;  
-  console.log( "Obj Div Scroll Top: " + objDiv.scrollTop +  " --- objDiv.scrollHeight: " + objDiv.scrollHeight);
+  document.getElementById("h1").innerHTML = info + "Obj Div Scroll Top: " + objDiv.scrollTop +  " --- objDiv.scrollHeight " + objDiv.scrollHeight;
+
+  //console.log( "Obj Div Scroll Top: " + objDiv.scrollTop +  " --- objDiv.scrollHeight: " + objDiv.scrollHeight);
   if ((objDiv.scrollTop + 1608) >= objDiv.scrollHeight) {
     console.log("I should return to top!");
     setTimeout(function(){ objDiv.scrollTop = 0; }, 1500);
