@@ -19,9 +19,10 @@ function reloadpage() {
 }
 
 var my_time;
+var objDiv = document.getElementById("contain");
 var info = document.getElementById("h1").innerHTML + " - "; 
 function pageScroll() {
-	var objDiv = document.getElementById("contain");
+	objDiv = document.getElementById("contain");
   objDiv.scrollTop = objDiv.scrollTop + 1;
   document.getElementById("h1").innerHTML = info + " -  Window height: " + window.innerHeight +  " - Obj.Div STop: " + objDiv.scrollTop +  " - objDiv.scrollHeight " + objDiv.scrollHeight;
   if ((objDiv.scrollTop + window.innerHeight + 1 ) >= objDiv.scrollHeight) {
