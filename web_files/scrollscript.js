@@ -1,38 +1,31 @@
+var myInterval, objDiv , objscrollHeight; 
+
 $(document).ready(function() {
-  
-  pageScroll();
-  $("#contain").mouseover(function() {
-    //clearTimeout(my_time);
-  }).mouseout(function() {
-    //pageScroll();
-	  //location.reload();
-  });
-  
-  getWidthHeader('table_fixed','table_scroll');
-  
+	myInterval = setInterval( myPageScroll, 10 );
+  	getWidthHeader('table_fixed','table_scroll');
 });
 
-function reloadpage() {
-  console.log("I am returning!");
-      //clearTimeout(my_time);
-      objDiv.scrollTop = 0; 
+function restoreScroll(){
+	document.getElementById("contain").scrollTop = 0;
+	setTimeout( ()=>{
+		myInterval = setInterval( myPageScroll, 10 );
+	} , 1000);
 }
 
-var my_time;
-var objDiv = document.getElementById("contain");
-var info = document.getElementById("h1").innerHTML + " - "; 
-function pageScroll() {
-	objDiv = document.getElementById("contain");
-  objDiv.scrollTop = objDiv.scrollTop + 1;
-  document.getElementById("h1").innerHTML = info + " -  Window height: " + window.innerHeight +  " - Obj.Div STop: " + objDiv.scrollTop +  " - objDiv.scrollHeight " + objDiv.scrollHeight;
-  if ((objDiv.scrollTop + window.innerHeight + 1 ) >= objDiv.scrollHeight) {
-    //check scrolltop plus windowheight  . greater than divContain height
-    console.log("I should return to top!");
-    setTimeout(reloadpage, 1500);
-    
-  }
-  my_time = setTimeout(pageScroll, 20);
+function myPageScroll(){
+	objDiv = document.getElementById("contain").scrollTop;
+	objscrollHeight = document.getElementById("contain").scrollHeight;
+
+	if ((objDiv + window.innerHeight + 1 ) >= objscrollHeight) {
+		clearInterval(myInterval);
+		setTimeout( restoreScroll , 1500 );
+	}else {
+		document.getElementById("contain").scrollTop = objDiv + 1;
+	}
+
+	//document.getElementById("h1").innerHTML =  "Window height: " + window.innerHeight +  " - Obj.Div STop: " + objDiv +  " - objDiv.scrollHeight " + objscrollHeight;
 }
+
 
 function getWidthHeader(id_header, id_scroll) {
   var colCount = 0;
