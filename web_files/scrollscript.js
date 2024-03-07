@@ -21,7 +21,7 @@ function pageScroll() {
   if ((objDiv.scrollTop + window.innerHeight + 1 ) >= objDiv.scrollHeight) {
     //check scrolltop plus windowheight  . greater than divContain height
     console.log("I should return to top!");
-    setTimeout(function(){ 
+    setTimeout(()=>{ 
       console.log("I am returning!");
       clearTimeout(my_time);
       objDiv.scrollTop = 0; 
