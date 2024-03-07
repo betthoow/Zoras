@@ -18,9 +18,13 @@ function pageScroll() {
 	var objDiv = document.getElementById("contain");
   objDiv.scrollTop = objDiv.scrollTop + 2;
   document.getElementById("h1").innerHTML = info + " -  Window height: " + window.innerHeight +  " - Obj.Div STop: " + objDiv.scrollTop +  " - objDiv.scrollHeight " + objDiv.scrollHeight;
-  if ((objDiv.scrollTop + 1608) >= objDiv.scrollHeight) {
+  if ((objDiv.scrollTop + window.innerHeight) >= objDiv.scrollHeight) {
+    //check scrolltop plus windowheight  . greater than divContain height
     console.log("I should return to top!");
-    setTimeout(function(){ objDiv.scrollTop = 0; }, 1500);
+    setTimeout(function(){ 
+      console.log("I am returning!");
+      objDiv.scrollTop = 0; 
+    }, 1500);
     
   }
   my_time = setTimeout(pageScroll, 100);
