@@ -16,18 +16,19 @@ var my_time;
 var info = document.getElementById("h1").innerHTML + " - "; 
 function pageScroll() {
 	var objDiv = document.getElementById("contain");
-  objDiv.scrollTop = objDiv.scrollTop + 2;
+  objDiv.scrollTop = objDiv.scrollTop + 1;
   document.getElementById("h1").innerHTML = info + " -  Window height: " + window.innerHeight +  " - Obj.Div STop: " + objDiv.scrollTop +  " - objDiv.scrollHeight " + objDiv.scrollHeight;
   if ((objDiv.scrollTop + window.innerHeight + 1 ) >= objDiv.scrollHeight) {
     //check scrolltop plus windowheight  . greater than divContain height
     console.log("I should return to top!");
     setTimeout(function(){ 
       console.log("I am returning!");
+      clearTimeout(my_time);
       objDiv.scrollTop = 0; 
     }, 1500);
     
   }
-  my_time = setTimeout(pageScroll, 100);
+  my_time = setTimeout(pageScroll, 20);
 }
 
 function getWidthHeader(id_header, id_scroll) {
