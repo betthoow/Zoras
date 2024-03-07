@@ -23,7 +23,7 @@ function pageScroll() {
     console.log("I should return to top!");
     setTimeout(()=>{ 
       console.log("I am returning!");
-      clearTimeout(my_time);
+      //clearTimeout(my_time);
       objDiv.scrollTop = 0; 
     }, 1500);
     
