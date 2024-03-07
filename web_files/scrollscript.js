@@ -12,6 +12,12 @@ $(document).ready(function() {
   
 });
 
+function reloadpage() {
+  console.log("I am returning!");
+      //clearTimeout(my_time);
+      objDiv.scrollTop = 0; 
+}
+
 var my_time;
 var info = document.getElementById("h1").innerHTML + " - "; 
 function pageScroll() {
@@ -21,11 +27,7 @@ function pageScroll() {
   if ((objDiv.scrollTop + window.innerHeight + 1 ) >= objDiv.scrollHeight) {
     //check scrolltop plus windowheight  . greater than divContain height
     console.log("I should return to top!");
-    setTimeout(()=>{ 
-      console.log("I am returning!");
-      //clearTimeout(my_time);
-      objDiv.scrollTop = 0; 
-    }, 1500);
+    setTimeout(reloadpage, 1500);
     
   }
   my_time = setTimeout(pageScroll, 20);
