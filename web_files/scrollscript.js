@@ -18,7 +18,7 @@ function pageScroll() {
 	var objDiv = document.getElementById("contain");
   objDiv.scrollTop = objDiv.scrollTop + 2;
   document.getElementById("h1").innerHTML = info + " -  Window height: " + window.innerHeight +  " - Obj.Div STop: " + objDiv.scrollTop +  " - objDiv.scrollHeight " + objDiv.scrollHeight;
-  if ((objDiv.scrollTop + window.innerHeight) >= objDiv.scrollHeight) {
+  if ((objDiv.scrollTop + window.innerHeight + 1 ) >= objDiv.scrollHeight) {
     //check scrolltop plus windowheight  . greater than divContain height
     console.log("I should return to top!");
     setTimeout(function(){ 
