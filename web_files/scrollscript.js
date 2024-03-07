@@ -2,14 +2,14 @@ var myInterval, objDiv , objscrollHeight;
 
 $(document).ready(function() {
 	restoreScroll();
-	console.log("Page ready!");
+	//console.log("Page ready!");
   	getWidthHeader('table_fixed','table_scroll');
 });
 
 function restoreScroll(){
 	document.getElementById("contain").scrollTop = 0;
 	setTimeout( ()=>{
-		console.log("Inicia el descenso!");
+		//console.log("Inicia el descenso!");
 		myInterval = setInterval( myPageScroll, 10 );
 	} , 1000);
 }
@@ -17,16 +17,16 @@ function restoreScroll(){
 function myPageScroll(){
 	objDiv = document.getElementById("contain").scrollTop;
 	objscrollHeight = document.getElementById("contain").scrollHeight;
-	console.log("PAra abajo - scrollpage");
+	//console.log("PAra abajo - scrollpage");
 	if ((objDiv + window.innerHeight - 60 ) >= objscrollHeight) {
 		clearInterval(myInterval);
-		console.log("Hepaleeeee, hasta aqui!");
+		//console.log("Hepaleeeee, hasta aqui!");
 		setTimeout( restoreScroll , 1500 );
 	}else {
 		document.getElementById("contain").scrollTop = objDiv + 1;
 	}
 
-	document.getElementById("h1").innerHTML =  "Window height: " + window.innerHeight +  " - Obj.Div STop: " + objDiv +  " - objDiv.scrollHeight " + objscrollHeight;
+	//document.getElementById("h1").innerHTML =  "Window height: " + window.innerHeight +  " - Obj.Div STop: " + objDiv +  " - objDiv.scrollHeight " + objscrollHeight;
 }
 
 
