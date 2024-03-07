@@ -18,7 +18,7 @@ function myPageScroll(){
 	objDiv = document.getElementById("contain").scrollTop;
 	objscrollHeight = document.getElementById("contain").scrollHeight;
 	console.log("PAra abajo - scrollpage");
-	if ((objDiv + window.innerHeight + 1 ) >= objscrollHeight) {
+	if ((objDiv + window.innerHeight - 60 ) >= objscrollHeight) {
 		clearInterval(myInterval);
 		console.log("Hepaleeeee, hasta aqui!");
 		setTimeout( restoreScroll , 1500 );
@@ -26,7 +26,7 @@ function myPageScroll(){
 		document.getElementById("contain").scrollTop = objDiv + 1;
 	}
 
-	//document.getElementById("h1").innerHTML =  "Window height: " + window.innerHeight +  " - Obj.Div STop: " + objDiv +  " - objDiv.scrollHeight " + objscrollHeight;
+	document.getElementById("h1").innerHTML =  "Window height: " + window.innerHeight +  " - Obj.Div STop: " + objDiv +  " - objDiv.scrollHeight " + objscrollHeight;
 }
 
 
