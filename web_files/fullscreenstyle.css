@@ -3,9 +3,19 @@
   background-color: #f7f7f7;
 }
 
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin:0;
+}
+
 #contain {
-  height: 84vh;  
-  overflow-y: scroll;  
+  /*height: 84vh;  
+  overflow-y: scroll; */  
+  flex-grow: 1;
+  overflow-y:  scroll;
+  max-height: 100vh;
 }
 
 #h1 {  padding: 0px;
